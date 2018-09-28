@@ -1,0 +1,31 @@
+body {
+  background-color: #FFFACD;
+  color: #333;
+}
+
+/* All page elements will be inside this container block, which is also centered */
+main {
+  width: 70%;
+  margin: 0 auto; 
+}
+
+/* All text within the header block will be center aligned */
+header {
+  text-align: center;
+}
+
+/* each new section will clear both columns and go again directly beneath */
+section {
+  clear: both;
+}
+
+/* used for text blurb, "floated" to the right of the aside witht the icon image */
+article {
+  float: right;
+  width: 70%;
+}
+
+/* used for icon image, "floated" to the left of the article with the text blurb */
+aside {
+  float: left;
+  width: 30%;
